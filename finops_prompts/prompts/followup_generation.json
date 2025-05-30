@@ -1,0 +1,11 @@
+  {
+    "prompt": [
+    "Step 1: Read the user query.",
+    "Step 2: Identify which required entity is missing: metric, service, or time period.",
+    "Step 3: Use the missing entity to craft a specific and helpful follow-up question.",
+    "Step 4: Ensure the question is polite and aimed at clarification.",
+    "Query: {query}",
+    "Missing Entity: {missing_entity}",
+    "Follow-up Question:"
+  ]
+}

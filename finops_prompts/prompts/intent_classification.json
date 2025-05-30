@@ -1,0 +1,15 @@
+{
+  "prompt": [
+    "Step 1: Read the user query carefully.",
+    "Step 2: Check if the query is asking to sort or rank something → classify as 'Ranking'.",
+    "Step 3: Check if the query is comparing two or more items → classify as 'Comparison'.",
+    "Step 4: Check if the query is about narrowing down results using a condition → classify as 'Filtering'.",
+    "Step 5: If none match clearly, choose the closest matching intent.",
+    "Query: {query}",
+    "Final Intent:"
+  ]
+}
+ 
+  
+
+

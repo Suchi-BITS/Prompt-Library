@@ -1,10 +1,9 @@
 # my_agent/agent.py
 
-from finops_prompts import get_prompt
+from finops_prompts import load_prompt
 
 query = "Give me EC2 cost trend for last month"
-prompt_template = get_prompt("cot_structuring")
-prompt = prompt_template.format(query=query)
-
-# Use this prompt in your LLM chain
-print(prompt)
+prompt_template = load_prompt("cot_structuring")
+prompt = prompt_template["prompt"]
+formatted_prompt = "\n".join(prompt).format(query=query)
+print(formatted_prompt)

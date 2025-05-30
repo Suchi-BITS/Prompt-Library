@@ -1,0 +1,9 @@
+README.md
+setup.py
+finops_prompts/__init__.py
+finops_prompts/prompt_loader.py
+finops_prompts.egg-info/PKG-INFO
+finops_prompts.egg-info/SOURCES.txt
+finops_prompts.egg-info/dependency_links.txt
+finops_prompts.egg-info/top_level.txt
+finops_prompts/prompts/__init__.py

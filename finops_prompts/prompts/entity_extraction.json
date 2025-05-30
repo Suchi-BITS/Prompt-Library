@@ -1,0 +1,13 @@
+ {
+
+ "prompt": [
+    "Step 1: Read the user query.",
+    "Step 2: Identify any mention of a metric like 'cost', 'usage', or 'spend'.",
+    "Step 3: Identify the cloud service involved (e.g., EC2, S3, Lambda).",
+    "Step 4: Identify the time period mentioned (e.g., last week, April 2023).",
+    "Step 5: Output the extracted entities in a list.",
+    "Query: {query}",
+    "Extracted Entities:"
+  ]
+}
+  
