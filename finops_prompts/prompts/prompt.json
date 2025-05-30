@@ -1,0 +1,40 @@
+{
+  "intent_classification": [
+    "Step 1: Read the user query carefully.",
+    "Step 2: Check if the query is asking to sort or rank something → classify as 'Ranking'.",
+    "Step 3: Check if the query is comparing two or more items → classify as 'Comparison'.",
+    "Step 4: Check if the query is about narrowing down results using a condition → classify as 'Filtering'.",
+    "Step 5: If none match clearly, choose the closest matching intent.",
+    "Query: {query}",
+    "Final Intent:"
+  ],
+  "entity_extraction": [
+    "Step 1: Read the user query.",
+    "Step 2: Identify any mention of a metric like 'cost', 'usage', or 'spend'.",
+    "Step 3: Identify the cloud service involved (e.g., EC2, S3, Lambda).",
+    "Step 4: Identify the time period mentioned (e.g., last week, April 2023).",
+    "Step 5: Output the extracted entities in a list.",
+    "Query: {query}",
+    "Extracted Entities:"
+  ],
+  "cot_structuring": [
+    "Step 1: Understand the query and extract all relevant parts.",
+    "Step 2: Identify the metric being discussed.",
+    "Step 3: Identify the service mentioned in the query.",
+    "Step 4: Extract the time period referenced.",
+    "Step 5: Infer the operation type (e.g., filtering, comparison, ranking) based on query structure.",
+    "Step 6: Output all components in a structured JSON format with keys: metric, service, time_period, operation_type.",
+    "Query: {query}",
+    "Structured Output:"
+  ],
+  "followup_generation": [
+    "Step 1: Read the user query.",
+    "Step 2: Identify which required entity is missing: metric, service, or time period.",
+    "Step 3: Use the missing entity to craft a specific and helpful follow-up question.",
+    "Step 4: Ensure the question is polite and aimed at clarification.",
+    "Query: {query}",
+    "Missing Entity: {missing_entity}",
+    "Follow-up Question:"
+  ]
+}
+

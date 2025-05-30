@@ -1,0 +1,11 @@
+step1: Push this structure to a GitHub repo:
+git init
+git add .
+git commit -m "Initial prompt library"
+git remote add origin https://github.com/your-org/finops-prompts.git
+git push -u origin main
+
+step2: Install via GitHub in other repos
+pip install git+https://github.com/your-org/finops-prompts.git
+then use in code
+from finops_prompts import get_prompt
